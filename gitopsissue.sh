@@ -8,7 +8,7 @@ export password='abcd'
 export tenantId='abcd'
 export resourceGroup='arc-capi-demo'
 export arcClusterName='arc-capi-demo'
-export appClonedRepo='https://github.com/zaidmohd/hello_arc'
+export appClonedRepo='https://github.com/zaidmohd/azure_arc'
 export namespace='hello-arc'
 
 # Installing Helm 3
