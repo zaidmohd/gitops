@@ -52,7 +52,7 @@ az k8s-configuration flux create \
 --cluster-type connectedClusters \
 --scope cluster \
 --url $appClonedRepo \
---branch master --sync-interval 3s \
+--branch main --sync-interval 3s \
 --kustomization name=nginx path=./artifacts/hello-arc/releases/nginx
 
 # Checking if Ingress Controller is ready
@@ -68,5 +68,5 @@ az k8s-configuration flux create \
 --cluster-type connectedClusters \
 --scope namespace \
 --url $appClonedRepo \
---branch master --sync-interval 3s \
+--branch main --sync-interval 3s \
 --kustomization name=app path=./artifacts/hello-arc/releases/app
